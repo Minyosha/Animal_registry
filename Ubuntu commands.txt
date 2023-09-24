@@ -1,0 +1,27 @@
+Task 1:
+mkdir animal_registry
+cd animal_registry
+cat > home_animals
+cat > pack_animals
+cat home_animals pack_animals > all_animals
+mv all_animals mans_friends
+ls -ali
+
+Task 2:
+cd ..
+mkdir new_animal_registry
+cd ~/animal_registry
+mv mans_friends ~/new_animal_registry
+cd ~/new_animal_registry
+ls -ali
+
+Task 3:
+sudo apt-get update
+sudo wget https://dev.mysql.com/get/mysql-apt-config_0.8.23-1_all.deb
+sudo dpkg -i mysql-apt-config_0.8.23-1_all.deb
+sudo apt-get install mysql-server
+
+Task 4:
+sudo wget https://download.docker.com/linux/ubuntu/dists/jammy/pool/stable/amd64/docker-ce-cli_20.10.13~3-0~ubuntu-jammy_amd64.deb
+sudo dpkg -i docker-ce-cli_20.10.13~3-0~ubuntu-jammy_amd64.deb
+sudo dpkg -r docker-ce-cli
