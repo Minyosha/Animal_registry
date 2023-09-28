@@ -2,6 +2,8 @@
 
 Организуйте систему учёта для питомника, в котором живут домашние и вьючные животные.
 
+Примечание: программа написана в Intellij idea Community edition с использованием MySQL. Для корректной работы с базой данных необходимо установить плагин Database Navigator [следуя рекомендациям из этой статьи](https://habr.com/ru/sandbox/146588/), а так же отредактировать класс, содержащий логин и пароль для доступа к локальной бд. При первом запуске необходимо будет выбрать "8. Создать таблицы в базе данных".
+
 # Задание 1:
 Используя команду cat в терминале операционной системы Linux, создать
 два файла: Домашние животные (заполнив файл собаками, кошками,
@@ -9,24 +11,36 @@
 ослами), а затем объединить их. Просмотреть содержимое созданного файла.
 Переименовать файл, дав ему новое имя (Друзья человека).
 
+![cat](https://github.com/Minyosha/Animal_registry/blob/master/Screenshots/Scr_1.JPG)
+
 # Задание 2:
 Создать директорию, переместить файл туда.
+
+![mv](https://github.com/Minyosha/Animal_registry/blob/master/Screenshots/Scr_2.JPG)
 
 # Задание 3:
 Подключить дополнительный репозиторий MySQL. Установить любой пакет
 из этого репозитория.
 
+![rep1](https://github.com/Minyosha/Animal_registry/blob/master/Screenshots/Scr_3_1.JPG)
+![rep2](https://github.com/Minyosha/Animal_registry/blob/master/Screenshots/Scr_3_2.JPG)
+![rep3](https://github.com/Minyosha/Animal_registry/blob/master/Screenshots/Scr_3_3.JPG)
+
 # Задание 4:
 Установить и удалить deb-пакет с помощью dpkg.
 
+![deb](https://github.com/Minyosha/Animal_registry/blob/master/Screenshots/Scr_4.JPG)
+
 # Задание 5:
-Выложить историю команд в терминале ubuntu.
+[Выложить историю команд в терминале ubuntu.](https://github.com/Minyosha/Animal_registry/blob/c72495c3efe00eb828ff1950d6d458e5c4a046b8/Ubuntu%20commands.txt)
 
 # Задание 6:
 Нарисовать диаграмму, в которой есть класс родительский класс, домашние
 животные и вьючные животные, в составы которых в случае домашних
 животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные
 войдут: лошади, верблюды и ослы.
+
+![Диаграмма](https://github.com/Minyosha/Animal_registry/blob/master/Screenshots/Scr_6.JPG)
 
 # Задание 7:
 В подключенном MySQL репозитории создать базу данных “Друзья
